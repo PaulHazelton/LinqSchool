@@ -13,24 +13,17 @@ public class LinqSolution1 : ISolution1
 
 	public IEnumerable<ItemCheckbox<Character>> TransformCharactersToCheckboxes()
 	{
-		//throw new NotImplementedException();
-		return _characters.Select(c => new ItemCheckbox<Character>()
-		{
-			DisplayText = c.Name,
-			Item = c
-		});
+		throw new NotImplementedException();
 	}
 
 	public IEnumerable<string> WhoHasAnEvenNumberOfApples()
 	{
-		//throw new NotImplementedException();
-		return _characters.Where(c => c.NumberOfApples % 2 == 0).Select(c => c.Name);
+		throw new NotImplementedException();
 	}
 
 	public IEnumerable<string> WhoHasTheseIds(IEnumerable<int> selectedIds)
 	{
-		//throw new NotImplementedException();
-		return _characters.Where(c =>  selectedIds.Contains(c.Id)).Select(c => c.Name);
+		throw new NotImplementedException();
 	}
 
 	public IEnumerable<string> WhoHasAPrimeNumberOfApples()
